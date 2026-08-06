@@ -1,0 +1,112 @@
+{
+  "Charlie Hebdo": {
+    "label": "Charlie Hebdo",
+    "budget": 1763,
+    "budget_pct": 5.0,
+    "baseline": 37262,
+    "degree": {
+      "reduction_pct": 30.63
+    },
+    "betweenness": {
+      "reduction_pct": 16.64
+    },
+    "random": {
+      "mean_reduction_pct": 12.8,
+      "ci_95": 0.03
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Ottawa Shooting": {
+    "label": "Ottawa Shooting",
+    "budget": 555,
+    "budget_pct": 5.0,
+    "baseline": 11957,
+    "degree": {
+      "reduction_pct": 21.57
+    },
+    "betweenness": {
+      "reduction_pct": 14.45
+    },
+    "random": {
+      "mean_reduction_pct": 8.95,
+      "ci_95": 0.03
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Germanwings": {
+    "label": "Germanwings",
+    "budget": 198,
+    "budget_pct": 5.0,
+    "baseline": 4366,
+    "degree": {
+      "reduction_pct": 21.58
+    },
+    "betweenness": {
+      "reduction_pct": 14.5
+    },
+    "random": {
+      "mean_reduction_pct": 8.55,
+      "ci_95": 0.05
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Sydney Siege": {
+    "label": "Sydney Siege",
+    "budget": 1112,
+    "budget_pct": 5.0,
+    "baseline": 23423,
+    "degree": {
+      "reduction_pct": 30.68
+    },
+    "betweenness": {
+      "reduction_pct": 17.62
+    },
+    "random": {
+      "mean_reduction_pct": 12.77,
+      "ci_95": 0.04
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Ferguson": {
+    "label": "Ferguson",
+    "budget": 1064,
+    "budget_pct": 5.0,
+    "baseline": 22291,
+    "degree": {
+      "reduction_pct": 30.21
+    },
+    "betweenness": {
+      "reduction_pct": 17.69
+    },
+    "random": {
+      "mean_reduction_pct": 13.43,
+      "ci_95": 0.04
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  }
+}
