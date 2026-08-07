@@ -1,0 +1,462 @@
+{
+  "Charlie Hebdo": {
+    "1pct": {
+      "degree": {
+        "reduction_pct": 14.183350330095003
+      },
+      "betweenness": {
+        "reduction_pct": 6.6797273361601635
+      },
+      "random": {
+        "mean_reduction_pct": 2.8929526058719337,
+        "ci_95": 0.030938555050588745
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "2pct": {
+      "degree": {
+        "reduction_pct": 21.236111856583115
+      },
+      "betweenness": {
+        "reduction_pct": 10.960227577693091
+      },
+      "random": {
+        "mean_reduction_pct": 5.585889109548601,
+        "ci_95": 0.039654652501882284
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "5pct": {
+      "degree": {
+        "reduction_pct": 30.42241425581021
+      },
+      "betweenness": {
+        "reduction_pct": 16.638935108153078
+      },
+      "random": {
+        "mean_reduction_pct": 12.805168804680372,
+        "ci_95": 0.047968147988325605
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "10pct": {
+      "degree": {
+        "reduction_pct": 37.421501798078474
+      },
+      "betweenness": {
+        "reduction_pct": 20.51419676882615
+      },
+      "random": {
+        "mean_reduction_pct": 22.61746551446514,
+        "ci_95": 0.04398549656647015
+      },
+      "ranking": [
+        "degree",
+        "random",
+        "betweenness"
+      ],
+      "degree_wins": true
+    },
+    "20pct": {
+      "degree": {
+        "reduction_pct": 44.565509097740325
+      },
+      "betweenness": {
+        "reduction_pct": 30.22650421340776
+      },
+      "random": {
+        "mean_reduction_pct": 37.19931297300199,
+        "ci_95": 0.03228938878651248
+      },
+      "ranking": [
+        "degree",
+        "random",
+        "betweenness"
+      ],
+      "degree_wins": true
+    }
+  },
+  "Ottawa Shooting": {
+    "1pct": {
+      "degree": {
+        "reduction_pct": 10.178138329012294
+      },
+      "betweenness": {
+        "reduction_pct": 5.3859663795266375
+      },
+      "random": {
+        "mean_reduction_pct": 1.9273898134983691,
+        "ci_95": 0.026369499872035115
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "2pct": {
+      "degree": {
+        "reduction_pct": 15.087396504139834
+      },
+      "betweenness": {
+        "reduction_pct": 8.346575227899974
+      },
+      "random": {
+        "mean_reduction_pct": 3.7736555992305765,
+        "ci_95": 0.03465619828439053
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "5pct": {
+      "degree": {
+        "reduction_pct": 21.619135234590615
+      },
+      "betweenness": {
+        "reduction_pct": 14.40160575395166
+      },
+      "random": {
+        "mean_reduction_pct": 8.935920381366563,
+        "ci_95": 0.04396953785588852
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "10pct": {
+      "degree": {
+        "reduction_pct": 28.117420757715145
+      },
+      "betweenness": {
+        "reduction_pct": 19.837751944467676
+      },
+      "random": {
+        "mean_reduction_pct": 16.565710462490593,
+        "ci_95": 0.04736062423016166
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "20pct": {
+      "degree": {
+        "reduction_pct": 36.305093250815425
+      },
+      "betweenness": {
+        "reduction_pct": 29.405369239775865
+      },
+      "random": {
+        "mean_reduction_pct": 29.44007694237685,
+        "ci_95": 0.043685790480457856
+      },
+      "ranking": [
+        "degree",
+        "random",
+        "betweenness"
+      ],
+      "degree_wins": true
+    }
+  },
+  "Germanwings": {
+    "1pct": {
+      "degree": {
+        "reduction_pct": 7.856161245991754
+      },
+      "betweenness": {
+        "reduction_pct": 4.5121392579019695
+      },
+      "random": {
+        "mean_reduction_pct": 1.7872194228126432,
+        "ci_95": 0.03657406205750266
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "2pct": {
+      "degree": {
+        "reduction_pct": 12.78057718735685
+      },
+      "betweenness": {
+        "reduction_pct": 8.199725148877691
+      },
+      "random": {
+        "mean_reduction_pct": 3.5801649106733855,
+        "ci_95": 0.050394338925401835
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "5pct": {
+      "degree": {
+        "reduction_pct": 21.163536417773706
+      },
+      "betweenness": {
+        "reduction_pct": 14.498396701786533
+      },
+      "random": {
+        "mean_reduction_pct": 8.540082455336693,
+        "ci_95": 0.06794225216376906
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "10pct": {
+      "degree": {
+        "reduction_pct": 28.011910215300045
+      },
+      "betweenness": {
+        "reduction_pct": 22.079706825469536
+      },
+      "random": {
+        "mean_reduction_pct": 16.03586807146129,
+        "ci_95": 0.07096152233826027
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "20pct": {
+      "degree": {
+        "reduction_pct": 35.3412734768667
+      },
+      "betweenness": {
+        "reduction_pct": 32.478240952817224
+      },
+      "random": {
+        "mean_reduction_pct": 28.452175904718278,
+        "ci_95": 0.06155541221203845
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    }
+  },
+  "Sydney Siege": {
+    "1pct": {
+      "degree": {
+        "reduction_pct": 15.177389745122316
+      },
+      "betweenness": {
+        "reduction_pct": 5.85322119284464
+      },
+      "random": {
+        "mean_reduction_pct": 2.8590957605772105,
+        "ci_95": 0.03851863847151983
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "2pct": {
+      "degree": {
+        "reduction_pct": 21.414848653033342
+      },
+      "betweenness": {
+        "reduction_pct": 10.74584809802331
+      },
+      "random": {
+        "mean_reduction_pct": 5.5443879947060575,
+        "ci_95": 0.04741383138842406
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "5pct": {
+      "degree": {
+        "reduction_pct": 30.585322119284463
+      },
+      "betweenness": {
+        "reduction_pct": 17.65785766127311
+      },
+      "random": {
+        "mean_reduction_pct": 12.787115228621442,
+        "ci_95": 0.058411241242222404
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "10pct": {
+      "degree": {
+        "reduction_pct": 38.2743457285574
+      },
+      "betweenness": {
+        "reduction_pct": 23.532425393843656
+      },
+      "random": {
+        "mean_reduction_pct": 22.63207104128421,
+        "ci_95": 0.05761934515256356
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "20pct": {
+      "degree": {
+        "reduction_pct": 46.04875549673398
+      },
+      "betweenness": {
+        "reduction_pct": 30.84148059599539
+      },
+      "random": {
+        "mean_reduction_pct": 37.296170430773174,
+        "ci_95": 0.04220013149798902
+      },
+      "ranking": [
+        "degree",
+        "random",
+        "betweenness"
+      ],
+      "degree_wins": true
+    }
+  },
+  "Ferguson": {
+    "1pct": {
+      "degree": {
+        "reduction_pct": 14.310708357633125
+      },
+      "betweenness": {
+        "reduction_pct": 5.612130456237944
+      },
+      "random": {
+        "mean_reduction_pct": 3.1334081019245437,
+        "ci_95": 0.045617879452748505
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "2pct": {
+      "degree": {
+        "reduction_pct": 19.96321385312458
+      },
+      "betweenness": {
+        "reduction_pct": 10.044412543178861
+      },
+      "random": {
+        "mean_reduction_pct": 6.0113678166076,
+        "ci_95": 0.05499008072595766
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "5pct": {
+      "degree": {
+        "reduction_pct": 29.989681934412992
+      },
+      "betweenness": {
+        "reduction_pct": 17.693239423982774
+      },
+      "random": {
+        "mean_reduction_pct": 13.406854784442151,
+        "ci_95": 0.061131581635363114
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "10pct": {
+      "degree": {
+        "reduction_pct": 37.30205015477098
+      },
+      "betweenness": {
+        "reduction_pct": 24.09941231887309
+      },
+      "random": {
+        "mean_reduction_pct": 23.155058095195372,
+        "ci_95": 0.05238555431113813
+      },
+      "ranking": [
+        "degree",
+        "betweenness",
+        "random"
+      ],
+      "degree_wins": true
+    },
+    "20pct": {
+      "degree": {
+        "reduction_pct": 45.700058319501146
+      },
+      "betweenness": {
+        "reduction_pct": 32.45704544434974
+      },
+      "random": {
+        "mean_reduction_pct": 37.48668072316182,
+        "ci_95": 0.039171645916011584
+      },
+      "ranking": [
+        "degree",
+        "random",
+        "betweenness"
+      ],
+      "degree_wins": true
+    }
+  }
+}
