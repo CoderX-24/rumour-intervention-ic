@@ -1,0 +1,44 @@
+[
+  {
+    "held_out": "Charlie Hebdo",
+    "recommended": "degree",
+    "actual_winner": "degree",
+    "correct": true
+  },
+  {
+    "held_out": "Ottawa Shooting",
+    "recommended": "degree",
+    "actual_winner": "degree",
+    "correct": true
+  },
+  {
+    "held_out": "Germanwings",
+    "recommended": "degree",
+    "actual_winner": "degree",
+    "correct": true
+  },
+  {
+    "held_out": "Sydney Siege",
+    "recommended": "degree",
+    "actual_winner": "degree",
+    "correct": true
+  },
+  {
+    "held_out": "Ferguson",
+    "recommended": "degree",
+    "actual_winner": "degree",
+    "correct": true
+  },
+  {
+    "held_out": "Prince Toronto",
+    "recommended": "degree",
+    "actual_winner": "degree",
+    "correct": true
+  },
+  {
+    "held_out": "Putin Missing",
+    "recommended": "degree",
+    "actual_winner": "degree",
+    "correct": true
+  }
+]
