@@ -1,0 +1,226 @@
+{
+  "Charlie Hebdo": {
+    "label": "Charlie Hebdo",
+    "n_threads": 2002,
+    "n_nodes": 37262,
+    "n_nonseed": 35260,
+    "baseline": 37262,
+    "budget": 1763,
+    "budget_pct": 5.0,
+    "underpowered": false,
+    "degree": {
+      "reduction_pct": 30.46535344318609
+    },
+    "betweenness": {
+      "reduction_pct": 16.638935108153078
+    },
+    "random": {
+      "mean_reduction_pct": 12.795443078739735,
+      "ci_95": 0.03368722818327492,
+      "min": 11.209811604315389,
+      "max": 14.712039074660511
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Ottawa Shooting": {
+    "label": "Ottawa Shooting",
+    "n_threads": 857,
+    "n_nodes": 11957,
+    "n_nonseed": 11100,
+    "baseline": 11957,
+    "budget": 555,
+    "budget_pct": 5.0,
+    "underpowered": false,
+    "degree": {
+      "reduction_pct": 21.81149117671657
+    },
+    "betweenness": {
+      "reduction_pct": 14.40160575395166
+    },
+    "random": {
+      "mean_reduction_pct": 8.95158484569708,
+      "ci_95": 0.031621159938729694,
+      "min": 7.744417496027432,
+      "max": 10.529397005937945
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Germanwings": {
+    "label": "Germanwings",
+    "n_threads": 403,
+    "n_nodes": 4366,
+    "n_nonseed": 3963,
+    "baseline": 4366,
+    "budget": 198,
+    "budget_pct": 4.996214988644966,
+    "underpowered": false,
+    "degree": {
+      "reduction_pct": 21.1864406779661
+    },
+    "betweenness": {
+      "reduction_pct": 14.360971140632158
+    },
+    "random": {
+      "mean_reduction_pct": 8.550274851122309,
+      "ci_95": 0.04699810948431069,
+      "min": 6.6651397159871735,
+      "max": 10.833715071003207
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Sydney Siege": {
+    "label": "Sydney Siege",
+    "n_threads": 1172,
+    "n_nodes": 23423,
+    "n_nonseed": 22251,
+    "baseline": 23423,
+    "budget": 1112,
+    "budget_pct": 4.9975282009797315,
+    "underpowered": false,
+    "degree": {
+      "reduction_pct": 30.850019211885755
+    },
+    "betweenness": {
+      "reduction_pct": 17.692012124834566
+    },
+    "random": {
+      "mean_reduction_pct": 12.769115826324553,
+      "ci_95": 0.040692595645724666,
+      "min": 10.98919865089869,
+      "max": 15.2286214404645
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Ferguson": {
+    "label": "Ferguson",
+    "n_threads": 1010,
+    "n_nodes": 22291,
+    "n_nonseed": 21281,
+    "baseline": 22291,
+    "budget": 1064,
+    "budget_pct": 4.9997650486349325,
+    "underpowered": false,
+    "degree": {
+      "reduction_pct": 29.958279126104706
+    },
+    "betweenness": {
+      "reduction_pct": 17.836795119106366
+    },
+    "random": {
+      "mean_reduction_pct": 13.426970526221343,
+      "ci_95": 0.043835960375053724,
+      "min": 11.049302409044008,
+      "max": 15.818043156430846
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Prince Toronto": {
+    "label": "Prince Toronto",
+    "n_threads": 133,
+    "n_nodes": 771,
+    "n_nonseed": 638,
+    "baseline": 771,
+    "budget": 31,
+    "budget_pct": 4.858934169278997,
+    "underpowered": false,
+    "degree": {
+      "reduction_pct": 16.472114137483786
+    },
+    "betweenness": {
+      "reduction_pct": 9.20881971465629
+    },
+    "random": {
+      "mean_reduction_pct": 6.850843060959794,
+      "ci_95": 0.06323345557328189,
+      "min": 4.409857328145266,
+      "max": 10.116731517509727
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Putin Missing": {
+    "label": "Putin Missing",
+    "n_threads": 135,
+    "n_nodes": 712,
+    "n_nonseed": 577,
+    "baseline": 712,
+    "budget": 28,
+    "budget_pct": 4.852686308492201,
+    "underpowered": false,
+    "degree": {
+      "reduction_pct": 13.202247191011235
+    },
+    "betweenness": {
+      "reduction_pct": 8.707865168539326
+    },
+    "random": {
+      "mean_reduction_pct": 6.465168539325843,
+      "ci_95": 0.08058100727153544,
+      "min": 4.073033707865169,
+      "max": 11.235955056179776
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  "Ebola-Essien": {
+    "label": "Ebola-Essien",
+    "n_threads": 14,
+    "n_nodes": 222,
+    "n_nonseed": 208,
+    "baseline": 222,
+    "budget": 10,
+    "budget_pct": 4.8076923076923075,
+    "underpowered": true,
+    "degree": {
+      "reduction_pct": 16.216216216216218
+    },
+    "betweenness": {
+      "reduction_pct": 13.963963963963964
+    },
+    "random": {
+      "mean_reduction_pct": 6.6639639639639645,
+      "ci_95": 0.09722015785107659,
+      "min": 4.504504504504505,
+      "max": 13.063063063063064
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  }
+}
