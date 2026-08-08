@@ -1,0 +1,94 @@
+[
+  {
+    "label": "CH Rumours-only",
+    "n_threads": 447,
+    "baseline": 7065,
+    "budget": 330,
+    "budget_pct": 4.986400725294651,
+    "degree": {
+      "reduction_pct": 24.656758669497524
+    },
+    "betweenness": {
+      "reduction_pct": 15.343241330502478
+    },
+    "random": {
+      "mean_reduction_pct": 10.861387119603682,
+      "ci_95": 0.06915495251110584
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  {
+    "label": "CH Non-rumours-only",
+    "n_threads": 1555,
+    "baseline": 30197,
+    "budget": 1432,
+    "budget_pct": 4.999650862369946,
+    "degree": {
+      "reduction_pct": 31.64883928867106
+    },
+    "betweenness": {
+      "reduction_pct": 17.912375401529953
+    },
+    "random": {
+      "mean_reduction_pct": 13.217604397787861,
+      "ci_95": 0.03687279613558361
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  {
+    "label": "Ferguson Wave 1",
+    "n_threads": 181,
+    "baseline": 3593,
+    "budget": 170,
+    "budget_pct": 4.9824150058616645,
+    "degree": {
+      "reduction_pct": 32.09017534094072
+    },
+    "betweenness": {
+      "reduction_pct": 17.116615641525186
+    },
+    "random": {
+      "mean_reduction_pct": 13.286139716114667,
+      "ci_95": 0.11224734987587448
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  },
+  {
+    "label": "Ferguson Wave 3",
+    "n_threads": 431,
+    "baseline": 9968,
+    "budget": 476,
+    "budget_pct": 4.991087344028521,
+    "degree": {
+      "reduction_pct": 29.735152487961475
+    },
+    "betweenness": {
+      "reduction_pct": 17.385634028892454
+    },
+    "random": {
+      "mean_reduction_pct": 14.62001404494382,
+      "ci_95": 0.07258511855616286
+    },
+    "ranking": [
+      "degree",
+      "betweenness",
+      "random"
+    ],
+    "degree_wins": true
+  }
+]
