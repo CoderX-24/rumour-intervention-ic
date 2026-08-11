@@ -1,0 +1,77 @@
+{
+  "n_synthetic_forests": 200,
+  "budget_frac": 0.05,
+  "events": {
+    "charliehebdo": {
+      "real_r": 0.9746534302831541,
+      "synthetic_uniform_mean": 0.5882992082306351,
+      "synthetic_uniform_ci": [
+        0.5683021151172409,
+        0.6111481540267263
+      ],
+      "synthetic_branching_mean": 0.5590055263582779,
+      "synthetic_branching_ci": [
+        0.5275482222548762,
+        0.5836510833544178
+      ]
+    },
+    "ottawashooting": {
+      "real_r": 0.9852561015964517,
+      "synthetic_uniform_mean": 0.6312374694594818,
+      "synthetic_uniform_ci": [
+        0.5934510316323988,
+        0.6637808101227084
+      ],
+      "synthetic_branching_mean": 0.5875408326272314,
+      "synthetic_branching_ci": [
+        0.5446361126518697,
+        0.6166969089682907
+      ]
+    },
+    "germanwings": {
+      "real_r": 0.9874406556196074,
+      "synthetic_uniform_mean": 0.5859673666978662,
+      "synthetic_uniform_ci": [
+        0.5561478066223713,
+        0.6118507196580224
+      ],
+      "synthetic_branching_mean": 0.5550124694583041,
+      "synthetic_branching_ci": [
+        0.5149339274744978,
+        0.5883405766813884
+      ]
+    },
+    "sydneysiege": {
+      "real_r": 0.9738044698561944,
+      "synthetic_uniform_mean": 0.6040040454081972,
+      "synthetic_uniform_ci": [
+        0.5802312440017232,
+        0.6245187829737185
+      ],
+      "synthetic_branching_mean": 0.5681973624444139,
+      "synthetic_branching_ci": [
+        0.5448795202921506,
+        0.5924825577932896
+      ]
+    },
+    "ferguson": {
+      "real_r": 0.978037289861989,
+      "synthetic_uniform_mean": 0.5925510292251797,
+      "synthetic_uniform_ci": [
+        0.5618293155758448,
+        0.6208538829111413
+      ],
+      "synthetic_branching_mean": 0.563691182458963,
+      "synthetic_branching_ci": [
+        0.5240248787277167,
+        0.5966792011921581
+      ]
+    }
+  },
+  "summary": {
+    "mean_real_r": 0.9798383894434792,
+    "mean_synthetic_uniform_r": 0.6004118238042719,
+    "mean_synthetic_branching_r": 0.566689474669438,
+    "gap_real_minus_uniform": 0.3794265656392073
+  }
+}
