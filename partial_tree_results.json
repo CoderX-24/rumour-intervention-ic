@@ -1,0 +1,262 @@
+{
+  "Charlie Hebdo": [
+    {
+      "completion_pct": 0.1,
+      "partial_nodes_visible": 19282,
+      "partial_nonseed_visible": 17280,
+      "budget": 864,
+      "degree_reduction": 18.147174064730827,
+      "random_reduction": 6.877757500939295,
+      "degree_wins": true,
+      "degree_advantage_pp": 11.26941656379153
+    },
+    {
+      "completion_pct": 0.25,
+      "partial_nodes_visible": 24704,
+      "partial_nonseed_visible": 22702,
+      "budget": 1135,
+      "degree_reduction": 22.416939509419784,
+      "random_reduction": 8.664274596103269,
+      "degree_wins": true,
+      "degree_advantage_pp": 13.752664913316515
+    },
+    {
+      "completion_pct": 0.5,
+      "partial_nodes_visible": 28945,
+      "partial_nonseed_visible": 26943,
+      "budget": 1347,
+      "degree_reduction": 24.902044978798777,
+      "random_reduction": 10.156942729858836,
+      "degree_wins": true,
+      "degree_advantage_pp": 14.745102248939942
+    },
+    {
+      "completion_pct": 0.75,
+      "partial_nodes_visible": 31527,
+      "partial_nonseed_visible": 29525,
+      "budget": 1476,
+      "degree_reduction": 27.362997155278837,
+      "random_reduction": 11.183811926359294,
+      "degree_wins": true,
+      "degree_advantage_pp": 16.179185228919543
+    },
+    {
+      "completion_pct": 1.0,
+      "partial_nodes_visible": 37262,
+      "partial_nonseed_visible": 35260,
+      "budget": 1763,
+      "degree_reduction": 30.32311738500349,
+      "random_reduction": 12.805168804680372,
+      "degree_wins": true,
+      "degree_advantage_pp": 17.517948580323115
+    }
+  ],
+  "Ottawa Shooting": [
+    {
+      "completion_pct": 0.1,
+      "partial_nodes_visible": 5988,
+      "partial_nonseed_visible": 5131,
+      "budget": 256,
+      "degree_reduction": 12.427866521702768,
+      "random_reduction": 4.71439324245212,
+      "degree_wins": true,
+      "degree_advantage_pp": 7.713473279250648
+    },
+    {
+      "completion_pct": 0.25,
+      "partial_nodes_visible": 7902,
+      "partial_nonseed_visible": 7045,
+      "budget": 352,
+      "degree_reduction": 15.639374425022998,
+      "random_reduction": 6.188308104039476,
+      "degree_wins": true,
+      "degree_advantage_pp": 9.451066320983522
+    },
+    {
+      "completion_pct": 0.5,
+      "partial_nodes_visible": 9354,
+      "partial_nonseed_visible": 8497,
+      "budget": 424,
+      "degree_reduction": 18.298904407460064,
+      "random_reduction": 7.280605503052605,
+      "degree_wins": true,
+      "degree_advantage_pp": 11.018298904407459
+    },
+    {
+      "completion_pct": 0.75,
+      "partial_nodes_visible": 10204,
+      "partial_nonseed_visible": 9347,
+      "budget": 467,
+      "degree_reduction": 19.971564773772684,
+      "random_reduction": 7.96077611440997,
+      "degree_wins": true,
+      "degree_advantage_pp": 12.010788659362714
+    },
+    {
+      "completion_pct": 1.0,
+      "partial_nodes_visible": 11957,
+      "partial_nonseed_visible": 11100,
+      "budget": 555,
+      "degree_reduction": 21.669315045579996,
+      "random_reduction": 8.935920381366563,
+      "degree_wins": true,
+      "degree_advantage_pp": 12.733394664213433
+    }
+  ],
+  "Germanwings": [
+    {
+      "completion_pct": 0.1,
+      "partial_nodes_visible": 2301,
+      "partial_nonseed_visible": 1898,
+      "budget": 94,
+      "degree_reduction": 11.268896014658727,
+      "random_reduction": 4.083234081539167,
+      "degree_wins": true,
+      "degree_advantage_pp": 7.185661933119561
+    },
+    {
+      "completion_pct": 0.25,
+      "partial_nodes_visible": 2928,
+      "partial_nonseed_visible": 2525,
+      "budget": 126,
+      "degree_reduction": 14.544205222171325,
+      "random_reduction": 5.506962895098488,
+      "degree_wins": true,
+      "degree_advantage_pp": 9.037242327072835
+    },
+    {
+      "completion_pct": 0.5,
+      "partial_nodes_visible": 3336,
+      "partial_nonseed_visible": 2933,
+      "budget": 146,
+      "degree_reduction": 17.132386623912048,
+      "random_reduction": 6.393953275309207,
+      "degree_wins": true,
+      "degree_advantage_pp": 10.73843334860284
+    },
+    {
+      "completion_pct": 0.75,
+      "partial_nodes_visible": 3638,
+      "partial_nonseed_visible": 3235,
+      "budget": 161,
+      "degree_reduction": 18.91891891891892,
+      "random_reduction": 7.256390288593678,
+      "degree_wins": true,
+      "degree_advantage_pp": 11.662528630325241
+    },
+    {
+      "completion_pct": 1.0,
+      "partial_nodes_visible": 4366,
+      "partial_nonseed_visible": 3963,
+      "budget": 198,
+      "degree_reduction": 21.759047182775998,
+      "random_reduction": 8.540082455336693,
+      "degree_wins": true,
+      "degree_advantage_pp": 13.218964727439305
+    }
+  ],
+  "Sydney Siege": [
+    {
+      "completion_pct": 0.1,
+      "partial_nodes_visible": 11955,
+      "partial_nonseed_visible": 10783,
+      "budget": 539,
+      "degree_reduction": 19.412543226742944,
+      "random_reduction": 7.203261751270119,
+      "degree_wins": true,
+      "degree_advantage_pp": 12.209281475472824
+    },
+    {
+      "completion_pct": 0.25,
+      "partial_nodes_visible": 15728,
+      "partial_nonseed_visible": 14556,
+      "budget": 727,
+      "degree_reduction": 24.00631857575887,
+      "random_reduction": 8.954437945609017,
+      "degree_wins": true,
+      "degree_advantage_pp": 15.051880630149851
+    },
+    {
+      "completion_pct": 0.5,
+      "partial_nodes_visible": 18538,
+      "partial_nonseed_visible": 17366,
+      "budget": 868,
+      "degree_reduction": 27.169875763138794,
+      "random_reduction": 10.43844938735431,
+      "degree_wins": true,
+      "degree_advantage_pp": 16.731426375784483
+    },
+    {
+      "completion_pct": 0.75,
+      "partial_nodes_visible": 20135,
+      "partial_nonseed_visible": 18963,
+      "budget": 948,
+      "degree_reduction": 28.42932160696751,
+      "random_reduction": 11.277154933185331,
+      "degree_wins": true,
+      "degree_advantage_pp": 17.152166673782176
+    },
+    {
+      "completion_pct": 1.0,
+      "partial_nodes_visible": 23423,
+      "partial_nonseed_visible": 22251,
+      "budget": 1112,
+      "degree_reduction": 30.431627033257907,
+      "random_reduction": 12.787115228621442,
+      "degree_wins": true,
+      "degree_advantage_pp": 17.644511804636466
+    }
+  ],
+  "Ferguson": [
+    {
+      "completion_pct": 0.1,
+      "partial_nodes_visible": 11077,
+      "partial_nonseed_visible": 10067,
+      "budget": 503,
+      "degree_reduction": 17.285002915975056,
+      "random_reduction": 6.687299807097034,
+      "degree_wins": true,
+      "degree_advantage_pp": 10.597703108878022
+    },
+    {
+      "completion_pct": 0.25,
+      "partial_nodes_visible": 14606,
+      "partial_nonseed_visible": 13596,
+      "budget": 679,
+      "degree_reduction": 22.05822977883451,
+      "random_reduction": 8.77286797362164,
+      "degree_wins": true,
+      "degree_advantage_pp": 13.285361805212869
+    },
+    {
+      "completion_pct": 0.5,
+      "partial_nodes_visible": 17226,
+      "partial_nonseed_visible": 16216,
+      "budget": 810,
+      "degree_reduction": 25.458705307074602,
+      "random_reduction": 10.514162666547037,
+      "degree_wins": true,
+      "degree_advantage_pp": 14.944542640527565
+    },
+    {
+      "completion_pct": 0.75,
+      "partial_nodes_visible": 18983,
+      "partial_nonseed_visible": 17973,
+      "budget": 898,
+      "degree_reduction": 27.010901260598448,
+      "random_reduction": 11.9595083217442,
+      "degree_wins": true,
+      "degree_advantage_pp": 15.051392938854248
+    },
+    {
+      "completion_pct": 1.0,
+      "partial_nodes_visible": 22291,
+      "partial_nonseed_visible": 21281,
+      "budget": 1064,
+      "degree_reduction": 30.173612668790096,
+      "random_reduction": 13.406854784442151,
+      "degree_wins": true,
+      "degree_advantage_pp": 16.766757884347946
+    }
+  ]
+}

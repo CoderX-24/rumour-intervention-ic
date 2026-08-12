@@ -1,0 +1,29 @@
+{
+  "pagerank_correlations": {
+    "Charlie Hebdo": {
+      "r_degree": 0.9746534302831541,
+      "r_pagerank": 0.43158837616467155,
+      "r_betweenness": 0.6358454858956187
+    },
+    "Ottawa Shooting": {
+      "r_degree": 0.9852561015964517,
+      "r_pagerank": 0.2938829739238643,
+      "r_betweenness": 0.7397295479390807
+    },
+    "Germanwings": {
+      "r_degree": 0.9874406556196074,
+      "r_pagerank": 0.33553489704709333,
+      "r_betweenness": 0.916868505429118
+    },
+    "Sydney Siege": {
+      "r_degree": 0.9738044698561944,
+      "r_pagerank": 0.3782042666165535,
+      "r_betweenness": 0.7087920798185751
+    },
+    "Ferguson": {
+      "r_degree": 0.978037289861989,
+      "r_pagerank": 0.3579925722566564,
+      "r_betweenness": 0.7666905647136084
+    }
+  }
+}

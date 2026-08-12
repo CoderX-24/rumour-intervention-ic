@@ -1,0 +1,276 @@
+{
+  "Charlie Hebdo": {
+    "label": "Charlie Hebdo",
+    "total_intervened_threads": 1951,
+    "thread_win_rate": 80.01025115325474,
+    "wins": 1561,
+    "event_degree_advantage": 17.669910364446352,
+    "size_analysis": [
+      {
+        "range": "3\u20135",
+        "n": 225,
+        "win_rate": 41.77777777777778,
+        "mean_advantage": 2.289111111111113
+      },
+      {
+        "range": "6\u201310",
+        "n": 428,
+        "win_rate": 71.49532710280374,
+        "mean_advantage": 6.679380841121495
+      },
+      {
+        "range": "11\u201320",
+        "n": 681,
+        "win_rate": 82.37885462555066,
+        "mean_advantage": 9.885334992296334
+      },
+      {
+        "range": "21\u201350",
+        "n": 536,
+        "win_rate": 97.20149253731343,
+        "mean_advantage": 20.324791396744928
+      },
+      {
+        "range": "51\u2013100",
+        "n": 65,
+        "win_rate": 96.92307692307692,
+        "mean_advantage": 37.55237114683015
+      },
+      {
+        "range": "101\u2013999999",
+        "n": 16,
+        "win_rate": 100.0,
+        "mean_advantage": 45.83091890351754
+      }
+    ],
+    "event_type": "crisis"
+  },
+  "Ottawa Shooting": {
+    "label": "Ottawa Shooting",
+    "total_intervened_threads": 813,
+    "thread_win_rate": 71.34071340713407,
+    "wins": 580,
+    "event_degree_advantage": 12.859906331019488,
+    "size_analysis": [
+      {
+        "range": "3\u20135",
+        "n": 146,
+        "win_rate": 33.56164383561644,
+        "mean_advantage": 2.631963470319636
+      },
+      {
+        "range": "6\u201310",
+        "n": 206,
+        "win_rate": 69.90291262135922,
+        "mean_advantage": 6.669421328401912
+      },
+      {
+        "range": "11\u201320",
+        "n": 308,
+        "win_rate": 77.27272727272727,
+        "mean_advantage": 9.435873874329179
+      },
+      {
+        "range": "21\u201350",
+        "n": 140,
+        "win_rate": 97.14285714285714,
+        "mean_advantage": 21.775106249340038
+      },
+      {
+        "range": "51\u2013100",
+        "n": 12,
+        "win_rate": 100.0,
+        "mean_advantage": 39.4612696527227
+      }
+    ],
+    "event_type": "crisis"
+  },
+  "Germanwings": {
+    "label": "Germanwings",
+    "total_intervened_threads": 352,
+    "thread_win_rate": 73.57954545454545,
+    "wins": 259,
+    "event_degree_advantage": 12.636165826843792,
+    "size_analysis": [
+      {
+        "range": "3\u20135",
+        "n": 116,
+        "win_rate": 54.310344827586206,
+        "mean_advantage": 2.666954022988509
+      },
+      {
+        "range": "6\u201310",
+        "n": 82,
+        "win_rate": 69.51219512195122,
+        "mean_advantage": 6.0142373209446385
+      },
+      {
+        "range": "11\u201320",
+        "n": 84,
+        "win_rate": 85.71428571428571,
+        "mean_advantage": 11.435412850552032
+      },
+      {
+        "range": "21\u201350",
+        "n": 69,
+        "win_rate": 95.65217391304348,
+        "mean_advantage": 18.883090261105
+      }
+    ],
+    "event_type": "crisis"
+  },
+  "Sydney Siege": {
+    "label": "Sydney Siege",
+    "total_intervened_threads": 1152,
+    "thread_win_rate": 81.07638888888889,
+    "wins": 934,
+    "event_degree_advantage": 18.0809033855612,
+    "size_analysis": [
+      {
+        "range": "3\u20135",
+        "n": 110,
+        "win_rate": 40.90909090909091,
+        "mean_advantage": 2.926666666666668
+      },
+      {
+        "range": "6\u201310",
+        "n": 205,
+        "win_rate": 70.73170731707317,
+        "mean_advantage": 7.132687766163376
+      },
+      {
+        "range": "11\u201320",
+        "n": 458,
+        "win_rate": 82.09606986899563,
+        "mean_advantage": 9.932769231895108
+      },
+      {
+        "range": "21\u201350",
+        "n": 327,
+        "win_rate": 96.63608562691131,
+        "mean_advantage": 19.42442399529074
+      },
+      {
+        "range": "51\u2013100",
+        "n": 38,
+        "win_rate": 100.0,
+        "mean_advantage": 39.058130801890215
+      },
+      {
+        "range": "101\u2013999999",
+        "n": 14,
+        "win_rate": 100.0,
+        "mean_advantage": 46.624269187586606
+      }
+    ],
+    "event_type": "crisis"
+  },
+  "Ferguson": {
+    "label": "Ferguson",
+    "total_intervened_threads": 991,
+    "thread_win_rate": 82.744702320888,
+    "wins": 820,
+    "event_degree_advantage": 16.531308599883364,
+    "size_analysis": [
+      {
+        "range": "3\u20135",
+        "n": 99,
+        "win_rate": 48.484848484848484,
+        "mean_advantage": 2.8096801346801366
+      },
+      {
+        "range": "6\u201310",
+        "n": 191,
+        "win_rate": 73.29842931937172,
+        "mean_advantage": 8.843997756170532
+      },
+      {
+        "range": "11\u201320",
+        "n": 412,
+        "win_rate": 84.70873786407768,
+        "mean_advantage": 10.291652090707894
+      },
+      {
+        "range": "21\u201350",
+        "n": 216,
+        "win_rate": 98.14814814814815,
+        "mean_advantage": 17.227388222857673
+      },
+      {
+        "range": "51\u2013100",
+        "n": 54,
+        "win_rate": 96.29629629629629,
+        "mean_advantage": 32.1889835975025
+      },
+      {
+        "range": "101\u2013999999",
+        "n": 19,
+        "win_rate": 100.0,
+        "mean_advantage": 33.11257713838212
+      }
+    ],
+    "event_type": "crisis"
+  },
+  "Prince Toronto": {
+    "label": "Prince Toronto",
+    "total_intervened_threads": 93,
+    "thread_win_rate": 82.79569892473118,
+    "wins": 77,
+    "event_degree_advantage": 9.621271076523993,
+    "size_analysis": [
+      {
+        "range": "3\u20135",
+        "n": 38,
+        "win_rate": 76.3157894736842,
+        "mean_advantage": 10.20964912280702
+      },
+      {
+        "range": "6\u201310",
+        "n": 35,
+        "win_rate": 88.57142857142857,
+        "mean_advantage": 14.808849206349208
+      },
+      {
+        "range": "11\u201320",
+        "n": 20,
+        "win_rate": 85.0,
+        "mean_advantage": 20.947695869554426
+      }
+    ],
+    "event_type": "non-crisis"
+  },
+  "Putin Missing": {
+    "label": "Putin Missing",
+    "total_intervened_threads": 92,
+    "thread_win_rate": 78.26086956521739,
+    "wins": 72,
+    "event_degree_advantage": 6.737078651685392,
+    "size_analysis": [
+      {
+        "range": "3\u20135",
+        "n": 56,
+        "win_rate": 75.0,
+        "mean_advantage": 8.185565476190478
+      },
+      {
+        "range": "6\u201310",
+        "n": 22,
+        "win_rate": 86.36363636363636,
+        "mean_advantage": 14.424025974025977
+      },
+      {
+        "range": "11\u201320",
+        "n": 10,
+        "win_rate": 80.0,
+        "mean_advantage": 12.81387314439946
+      },
+      {
+        "range": "21\u201350",
+        "n": 4,
+        "win_rate": 75.0,
+        "mean_advantage": 16.84759963768116
+      }
+    ],
+    "event_type": "non-crisis"
+  }
+}
