@@ -1,0 +1,52 @@
+{
+  "Charlie Hebdo": {
+    "real_r": 0.9753431425229746,
+    "degree_preserving_null_mean_r": 0.9803833447344065,
+    "degree_preserving_null_ci": [
+      0.9797408214566939,
+      0.9808412418419702
+    ],
+    "gap": -0.005040202211431866,
+    "verdict": "CIRCULARITY CONFIRMED (real r within degree-preserving null range)"
+  },
+  "Ottawa Shooting": {
+    "real_r": 0.988191815757682,
+    "degree_preserving_null_mean_r": 0.9917496249395475,
+    "degree_preserving_null_ci": [
+      0.9912912090117295,
+      0.9922093690704757
+    ],
+    "gap": -0.0035578091818655455,
+    "verdict": "CIRCULARITY CONFIRMED (real r within degree-preserving null range)"
+  },
+  "Germanwings": {
+    "real_r": 0.9859698081494613,
+    "degree_preserving_null_mean_r": 0.9903953545081928,
+    "degree_preserving_null_ci": [
+      0.9894228095470221,
+      0.9913028897601169
+    ],
+    "gap": -0.004425546358731491,
+    "verdict": "CIRCULARITY CONFIRMED (real r within degree-preserving null range)"
+  },
+  "Sydney Siege": {
+    "real_r": 0.9752892289759637,
+    "degree_preserving_null_mean_r": 0.9796460234666122,
+    "degree_preserving_null_ci": [
+      0.9788962721821091,
+      0.9802670914097076
+    ],
+    "gap": -0.004356794490648519,
+    "verdict": "CIRCULARITY CONFIRMED (real r within degree-preserving null range)"
+  },
+  "Ferguson": {
+    "real_r": 0.9781256839758433,
+    "degree_preserving_null_mean_r": 0.9840043364168735,
+    "degree_preserving_null_ci": [
+      0.9834876181221776,
+      0.9845460107363284
+    ],
+    "gap": -0.005878652441030141,
+    "verdict": "CIRCULARITY CONFIRMED (real r within degree-preserving null range)"
+  }
+}
