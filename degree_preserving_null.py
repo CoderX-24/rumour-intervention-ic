@@ -49,6 +49,8 @@ EVENTS = [
     ("germanwings-crash-all-rnr-threads", "Germanwings"),
     ("sydneysiege-all-rnr-threads", "Sydney Siege"),
     ("ferguson-all-rnr-threads", "Ferguson"),
+    ("prince-toronto-all-rnr-threads", "Prince Toronto"),
+    ("putinmissing-all-rnr-threads", "Putin Missing"),
 ]
 
 N_REWIRES = 200  # random degree-preserving rewires per event

@@ -56,6 +56,8 @@ EVENTS = [
     ("germanwings-crash-all-rnr-threads", "Germanwings"),
     ("sydneysiege-all-rnr-threads", "Sydney Siege"),
     ("ferguson-all-rnr-threads", "Ferguson"),
+    ("prince-toronto-all-rnr-threads", "Prince Toronto"),
+    ("putinmissing-all-rnr-threads", "Putin Missing"),
 ]
 
 N_REWIRES = 100  # fewer than degree_preserving_null.py's 200, for runtime
@@ -225,7 +227,7 @@ def main():
         print(f"  Overall real r:                  {real_r:.4f}")
         print(f"  Partial r(degree,impact | depth): {partial_r:.4f}")
         depth_explains_most = abs(partial_r) < abs(real_r) * 0.5
-        print(f"  {'Depth controls explain MOST of the correlation' if depth_explains_most else 'Correlation survives depth control -- degree carries information beyond depth'}")
+        print(f"  {'Depth controls explain MOST of the correlation (linear control only)' if depth_explains_most else 'A LINEAR depth control does not collapse the correlation -- degree appears to carry information beyond a linear depth effect; nonlinear depth-adjustment not tested here'}")
 
         # ---- 2. Size-stratified real-vs-null gap ----
         print(f"\n  Size-stratified real vs. degree-preserving-null gap "
@@ -275,16 +277,35 @@ def main():
     n_depth_dominant = sum(
         1 for v in all_results.values() if v["depth_explains_most_of_correlation"]
     )
-    print(f"Depth controls explain most of the correlation in "
-          f"{n_depth_dominant}/{len(all_results)} events")
+    print(f"A LINEAR depth control does not fully explain the correlation in "
+          f"{len(all_results) - n_depth_dominant}/{len(all_results)} events "
+          f"(nonlinear depth-adjustment not tested)")
 
     # Check whether the artifact (negative/near-zero gap) is worse for large threads
-    large_gaps, small_gaps = [], []
-    for v in all_results.values():
+    MIN_THREADS_FOR_RELIABLE_BIN = 5  # a bin backed by fewer threads than
+    # this is reported individually but excluded from the pooled summary,
+    # since a single thread can swing the bin's gap arbitrarily.
+    large_gaps, small_gaps, excluded_bins = [], [], []
+    for label, v in all_results.items():
         if "large (>50)" in v["size_stratified"]:
-            large_gaps.append(v["size_stratified"]["large (>50)"]["gap"])
+            entry = v["size_stratified"]["large (>50)"]
+            if entry["n_threads"] >= MIN_THREADS_FOR_RELIABLE_BIN:
+                large_gaps.append(entry["gap"])
+            else:
+                excluded_bins.append((label, "large", entry["gap"], entry["n_threads"]))
         if "small (<=10)" in v["size_stratified"]:
-            small_gaps.append(v["size_stratified"]["small (<=10)"]["gap"])
+            entry = v["size_stratified"]["small (<=10)"]
+            if entry["n_threads"] >= MIN_THREADS_FOR_RELIABLE_BIN:
+                small_gaps.append(entry["gap"])
+            else:
+                excluded_bins.append((label, "small", entry["gap"], entry["n_threads"]))
+
+    if excluded_bins:
+        print(f"\nExcluded from pooled summary (n_threads < {MIN_THREADS_FOR_RELIABLE_BIN}, "
+              f"too few to be reliable):")
+        for label, size_cat, gap, n_t in excluded_bins:
+            print(f"    {label} / {size_cat}: gap={gap:+.4f} (n_threads={n_t}) -- "
+                  f"reported individually, not pooled")
     if large_gaps and small_gaps:
         print(f"Mean gap, large threads (>50 nodes): {np.mean(large_gaps):+.4f}")
         print(f"Mean gap, small threads (<=10 nodes): {np.mean(small_gaps):+.4f}")

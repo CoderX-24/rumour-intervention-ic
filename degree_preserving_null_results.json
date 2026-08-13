@@ -48,5 +48,25 @@
     ],
     "gap": -0.005878652441030141,
     "verdict": "CIRCULARITY CONFIRMED (real r within degree-preserving null range)"
+  },
+  "Prince Toronto": {
+    "real_r": 0.9732577746593617,
+    "degree_preserving_null_mean_r": 0.9735856502858511,
+    "degree_preserving_null_ci": [
+      0.9706740667512743,
+      0.9760687130582992
+    ],
+    "gap": -0.0003278756264893934,
+    "verdict": "CIRCULARITY CONFIRMED (real r within degree-preserving null range)"
+  },
+  "Putin Missing": {
+    "real_r": 0.9807386036635191,
+    "degree_preserving_null_mean_r": 0.9848879243518925,
+    "degree_preserving_null_ci": [
+      0.981288935078644,
+      0.9882031696764159
+    ],
+    "gap": -0.004149320688373481,
+    "verdict": "CIRCULARITY CONFIRMED (real r within degree-preserving null range)"
   }
 }
