@@ -1,0 +1,106 @@
+{
+  "Charlie Hebdo": {
+    "real_rho": -0.39851499497496945,
+    "real_p_value": 0.0,
+    "n_edges_real": 34926,
+    "null_mean_rho": -0.25094651865235035,
+    "null_ci": [
+      -0.257909813400249,
+      -0.24410562870487126
+    ],
+    "gap": -0.1475684763226191,
+    "verdict": "SIGNIFICANT NEGATIVE ASSORTATIVITY (real below null 95% CI)",
+    "underpowered": false
+  },
+  "Ottawa Shooting": {
+    "real_rho": -0.3363945407635335,
+    "real_p_value": 1.9166160921976553e-288,
+    "n_edges_real": 10972,
+    "null_mean_rho": -0.18061288439713385,
+    "null_ci": [
+      -0.19399343699030466,
+      -0.16836378494488619
+    ],
+    "gap": -0.15578165636639962,
+    "verdict": "SIGNIFICANT NEGATIVE ASSORTATIVITY (real below null 95% CI)",
+    "underpowered": false
+  },
+  "Germanwings": {
+    "real_rho": -0.3386799164586692,
+    "real_p_value": 6.085563284997995e-103,
+    "n_edges_real": 3812,
+    "null_mean_rho": -0.1831374630057846,
+    "null_ci": [
+      -0.2005874946150714,
+      -0.161343351678678
+    ],
+    "gap": -0.1555424534528846,
+    "verdict": "SIGNIFICANT NEGATIVE ASSORTATIVITY (real below null 95% CI)",
+    "underpowered": false
+  },
+  "Sydney Siege": {
+    "real_rho": -0.3667815852358076,
+    "real_p_value": 0.0,
+    "n_edges_real": 22155,
+    "null_mean_rho": -0.2315542783768554,
+    "null_ci": [
+      -0.24035262655727654,
+      -0.22265457153970356
+    ],
+    "gap": -0.1352273068589522,
+    "verdict": "SIGNIFICANT NEGATIVE ASSORTATIVITY (real below null 95% CI)",
+    "underpowered": false
+  },
+  "Ferguson": {
+    "real_rho": -0.3527238941240907,
+    "real_p_value": 0.0,
+    "n_edges_real": 21127,
+    "null_mean_rho": -0.1770070991227964,
+    "null_ci": [
+      -0.18664273433004433,
+      -0.1654858376636887
+    ],
+    "gap": -0.1757167950012943,
+    "verdict": "SIGNIFICANT NEGATIVE ASSORTATIVITY (real below null 95% CI)",
+    "underpowered": false
+  },
+  "Prince Toronto": {
+    "real_rho": -0.36531908654379686,
+    "real_p_value": 2.250576326765349e-19,
+    "n_edges_real": 568,
+    "null_mean_rho": -0.3031987753354791,
+    "null_ci": [
+      -0.3475995213938253,
+      -0.2591897103136344
+    ],
+    "gap": -0.062120311208317736,
+    "verdict": "SIGNIFICANT NEGATIVE ASSORTATIVITY (real below null 95% CI)",
+    "underpowered": false
+  },
+  "Putin Missing": {
+    "real_rho": -0.2879817571811427,
+    "real_p_value": 9.807393877885144e-11,
+    "n_edges_real": 486,
+    "null_mean_rho": -0.18987797451450525,
+    "null_ci": [
+      -0.25137986119814043,
+      -0.13599940958085097
+    ],
+    "gap": -0.09810378266663747,
+    "verdict": "SIGNIFICANT NEGATIVE ASSORTATIVITY (real below null 95% CI)",
+    "underpowered": false
+  },
+  "Ebola-Essien": {
+    "real_rho": -0.16699225878831148,
+    "real_p_value": 0.015916007874029674,
+    "n_edges_real": 208,
+    "null_mean_rho": 0.012155740971742723,
+    "null_ci": [
+      -0.10473767759235245,
+      0.11897485346494607
+    ],
+    "gap": -0.1791479997600542,
+    "verdict": "SIGNIFICANT NEGATIVE ASSORTATIVITY (real below null 95% CI)",
+    "underpowered": true
+  }
+}
